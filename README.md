@@ -19,6 +19,8 @@ Images can be copied to your public directory with `rake emoji` in your app. Thi
 
 ``` ruby
 # Rakefile
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHartmarken%2Fgemoji.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHartmarken%2Fgemoji?ref=badge_shield)
+
 load 'tasks/emoji.rake'
 ```
 
@@ -129,3 +131,7 @@ end
 Emoji.find_by_alias "music"       #=> emoji
 Emoji.find_by_unicode "\u{266b}"  #=> emoji
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHartmarken%2Fgemoji.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FHartmarken%2Fgemoji?ref=badge_large)
